@@ -1,0 +1,197 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    position: relative;
+}
+
+nav {
+    height: 50px;
+    background: #212121;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style: none;
+}
+
+.menu .menu_link {
+    font-weight: 300;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.menu .menu_item {
+    border-right: 2px dotted black;
+    padding-right: 28px;
+}
+
+.subheader {
+    position: absolute;
+    width: 100%;
+    height: 84px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.subheader .subheader_logo {
+    display: block;
+    min-width: 100%;
+    margin-top: 16px;
+}
+
+.subheader .sub_header_official {
+    margin-top: 6px;
+    font-weight: 200;
+    font-size: 13px;
+    color: #FFFFFF;
+    opacity: 0.5;    
+}
+
+.subheader .subheader_call {
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 12px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.subheader .subheader_phone {
+    display: block;
+    line-height: 15px;
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.subheader .subheader_btn {
+    margin-top: 20px;
+    width: 172px;
+    height: 46px;
+    background: linear-gradient(to top, #1EACC7 0%, #4CE2FF 100%);
+    border: none;
+    border-radius: 4px;
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.promo {
+    min-height: 800px;
+    background: url(../img/header_bg.jpg) center center/cover no-repeat;
+    padding: 150px 0 135px 0;
+}
+
+.promo .promo_header {
+    margin: 0;
+    margin-top: 67px;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;  
+}
+
+.promo .promo_subheader {
+    margin: 0;
+    margin-top: 22px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.promo .promo_descr {
+    margin-top: 23px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.promo .promo_btn {
+    display: block;
+    margin: 118px auto 0 auto;
+    width: 259px;
+    height: 63px;
+    background: linear-gradient(to top, #1EACC7 0%, #4CE2FF 100%);
+    border: none;
+    border-radius: 4px;
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+    font-weight: 300px;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.label {
+    margin: 0 auto;
+    height: 27px;
+    width: 115px;
+    padding: 5px 12px;
+    background-color: black;
+    color: #FFFFFF;
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.title {
+    margin-bottom: 0;
+    margin-top: 38px;
+    color: #222222;
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.advantage {
+    height: 900px;
+    padding: 69px 0 62px 0;
+}
+
+
+.advantage .advantage_item {
+    margin-top: 40px;
+    margin-right: 20px;
+    min-height: 150px;
+    width: 512px;
+}
+
+.advantage .advantage_item .advantage_img {
+    widows: 116px;
+    float: left;
+}
+
+.advantage .advantage_item .advantage_item_header {
+    text-align: left;
+    margin-left: 123px;
+    font-weight: 400;
+    font-size: 17px;
+    color: #1EACC7;
+}
+
+.advantage .advantage_item .advantage_item_text {
+    text-align: justify;
+    margin-left: 123px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    color: #202020;
+
+}
